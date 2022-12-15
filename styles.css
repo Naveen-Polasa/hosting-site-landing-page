@@ -69,6 +69,10 @@ small,
   font-size: 0.8rem;
 }
 
+ul{
+  list-style: none;
+}
+
 .btn{
     background: var(--bg-primary);
     color: var(--font-white);
@@ -195,6 +199,7 @@ nav ul{
 
 .features-bottom{
     display: flex;
+    padding-bottom: 80px;
 }
 
 .fbl-sp {
@@ -246,4 +251,183 @@ span{
     background: var(--font-white);
     border-radius: 50%;
     margin-right: .8rem;
+}
+
+/* packs */
+.packs-top{
+  text-align: center;
+  padding: 2rem 20rem;
+}
+
+.arrows{
+  position: relative;
+  bottom :100px;
+  height: 80px;
+}
+.arrows::after{
+  content: url('./assets/Icons/arrow-right.svg');
+ position: relative;
+ left: 450px;
+}
+.arrows::before{
+  content: url('./assets/Icons/arrow-left.svg');
+  position: relative;
+  right: 450px;
+}
+
+.packs-bottom{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 90vh;
+}
+.packs-item{
+  width: 23vw;
+  background: var(--font-white);
+  color: var(--bg-black);
+  border-radius: 2rem;
+  padding-left: 2rem;
+}
+.packs-item-sp{
+  background: var(--bg-primary);
+  color: var(--font-white);
+}
+.packs-btn-sp{
+  background: var(--font-white);
+  color: var(--bg-primary);
+}
+
+sub{
+  opacity: .7;
+}
+
+.packs-item > div > h5{
+  margin: .4rem 0;
+}
+
+.packs-btn{
+  width: 90%;
+}
+
+.packs-item-top{
+  height: 40%;
+  padding-right: 3rem;
+}
+.packs-item-bottom{
+  display: flex;
+  flex-direction: column;
+}
+.packs-item-bottom > h5 > img {
+  margin-bottom: -.2rem;
+  margin-right: .5rem;
+}
+
+.reviews{
+  height: 95vh;
+}
+
+/* reviews */
+.reviews{
+  height: 95vh;
+  max-width: 1400px;
+  padding: 0 100px;
+  background: var(--font-white);
+  color: var(--bg-black);
+}
+.reviews-top{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  gap: rem;;
+  margin-right: 6rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+.reviews-top-h{
+width: 40vw;
+padding-right: 10rem;
+}
+.reviews-top-h5{
+  opacity: .7;
+}
+
+.reviews-bottom{
+  display: flex;
+  gap: 50px;
+}
+
+.review-1, .review-2{
+  height: 50vh;
+}
+.review-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 110rem;
+  background: var(--bg-black);
+  color: var(--font-white);
+  padding: 2rem;  
+  border-radius: 20px;
+}
+.review-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;  
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+.mark::before{
+  content: url('./assets/Icons/vuesax/bulk/vuesax/bulk/Vector.svg') url('./assets/Icons/vuesax/bulk/vuesax/bulk/Vector-1.svg');
+}
+.line{
+  width: 9rem;
+  height: .4rem;
+  background:  var(--bg-primary);
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+/* signup */
+.signup{
+  height: 60vh;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+
+.signup-t{
+  padding: 3rem 9rem;
+}
+.signup-b{
+  background: var(--bg-grey);
+  padding: 3rem;
+  margin: 0 5rem;
+  border-radius: 30px;
+}
+
+.input{
+    background: var(--bg-grey-2);
+    color: var(--font-white);
+    padding: 1rem 2.3rem;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 40px;
+}
+
+/* footer */
+.footer{
+  display: flex;
+  justify-content: space-around ;
+  padding: 50px 50px;
+  
+  border-bottom: 2px solid grey;
+}
+
+li{
+  margin: .8rem 0;
+}
+
+.footer-logo{
+  margin: 1rem 0 3rem 0;
 }
