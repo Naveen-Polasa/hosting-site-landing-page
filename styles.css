@@ -948,9 +948,8 @@ margin: .8rem 1rem;
   border-bottom: 2px solid grey;
 }
 
-ul > h5, .footer > ul > li{
-  margin: .3rem 0;
-  font-size: .8rem;
+ul > h5, .footer > div > ul > li{
+  font-size: .9rem;
   margin: 0 .9rem;
 }
 
@@ -968,6 +967,11 @@ ul > h5, .footer > ul > li{
   padding: 50px 50px;
   
   border-bottom: 2px solid grey;
+}
+
+ul > h5, .footer > div > ul > li{
+  font-size: 1.1rem;
+  margin: 0 .9rem;
 }
 
 li{
