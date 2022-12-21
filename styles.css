@@ -133,7 +133,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: .5rem;
     font-weight: 700;
     opacity: .75;
 }
@@ -419,7 +419,7 @@ background-color: #343333;
  /* features start */
  
  /* features section */
-/* for mobile */
+/* for mobile */  
 .features{
     background: var(--font-white);
     color: var(--bg-black);
@@ -464,7 +464,7 @@ background-color: var(--bg-primary);
 }
 
 .features-b-div > h4{
-font-size: 1.2rem;
+font-size: .9rem;
 position: relative;
 top: -.4rem;
 }
@@ -599,8 +599,8 @@ span{
   background: var(--font-white);
   color: var(--bg-black);
   border-radius: 2rem;
-  margin: 2rem 3rem;
-  height: 87vh;
+  margin: 1rem 2rem;
+  height: 90vh;
   
 }
 
@@ -948,8 +948,10 @@ margin: .8rem 1rem;
   border-bottom: 2px solid grey;
 }
 
-li{
+ul > h5, .footer > ul > li{
   margin: .3rem 0;
+  font-size: .8rem;
+  margin: 0 .9rem;
 }
 
 .footer-logo{
